@@ -1,0 +1,39 @@
+{
+    "name": "sanxiao/laravel-hope",
+    "description": "This is a wheel for developing assistance for Laravel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "sanxiao\\LaravelHope\\": "src/framework"
+        }
+    },
+    "authors": [
+        {
+            "name": "zhangyongku",
+            "email": "514162504@qq.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-openssl": "*",
+        "ext-pdo": "*",
+        "iidestiny/laravel-filesystem-oss": "^2.1",
+        "lcobucci/jwt": "3.*",
+        "maatwebsite/excel": "^3.1",
+        "overtrue/laravel-wechat": "^6.1",
+        "yansongda/pay": "^2.10",
+        "ytake/laravel-aspect": "^7.0",
+        "kra8/laravel-snowflake": "^2.1"
+
+    },
+    "config": {
+        "allow-plugins": {
+            "easywechat-composer/easywechat-composer": true
+        }
+    }
+}
